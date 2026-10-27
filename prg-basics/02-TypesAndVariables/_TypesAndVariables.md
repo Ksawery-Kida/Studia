@@ -100,7 +100,7 @@ stalj@uek.krakow.pl
 
     Then, explain what operation you can perform using the following operators:
 
-    * \+
+    * \+ 
     * \*
     * \*\*
     * \/
@@ -133,7 +133,7 @@ stalj@uek.krakow.pl
     
     Consider what data type the following values represent. Then, check your answers (run Python in interactive mode). Use the type(value) function.
 
-    1. 50
+    1. 50 
     1. 149.17
     1. 4 * 7
     1. 4.0 * 7
@@ -224,7 +224,7 @@ stalj@uek.krakow.pl
     import math
     a = 5
     b = ...
-    diagonal = math.sqrt(a**2 ...)
+    diagonal = math.sqrt(a ** 2, b ** 2)
     print(...)
     ```
 
