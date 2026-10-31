@@ -27,3 +27,12 @@ print(f'x {ord('x')}')
 print(f'y {ord('y')}')
 print(f'z {ord('z')}')
 
+#optimalization
+
+import string
+
+def print_numerical_representations():
+    print("another approach:")
+    for c in string.ascii_lowercase:
+        print(f'{c} {ord(c)}')
+print_numerical_representations()
