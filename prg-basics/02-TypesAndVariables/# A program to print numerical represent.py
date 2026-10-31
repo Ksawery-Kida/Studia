@@ -27,7 +27,7 @@ print(f'x {ord('x')}')
 print(f'y {ord('y')}')
 print(f'z {ord('z')}')
 
-#optimalization
+#optimalization / another approach
 
 import string
 
