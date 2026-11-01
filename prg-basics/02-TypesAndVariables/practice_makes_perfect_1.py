@@ -28,6 +28,6 @@ class Temperature:
 
 
 if __name__ == "__main__":
-    t = Temperature(0)      # tworzysz obiekt, 0 to wartość startowa
-    t.ask_temperature()     # pyta użytkownika o temperaturę
-    t.call()                # wypisuje przeliczenia
+    t = Temperature(0)      
+    t.ask_temperature()     
+    t.call()                
