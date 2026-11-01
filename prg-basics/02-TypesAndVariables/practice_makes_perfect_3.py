@@ -8,7 +8,7 @@ class BankCode:
         self.branch_code = branch_code
 
     
-    def ask_bank_code(self):
+    def ask_bank_code(self): 
         while True:
             try:
                 bank_code = input("Enter a bank code (4 letters): ")
