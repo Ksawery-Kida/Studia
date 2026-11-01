@@ -2,7 +2,7 @@ print("People up to and including 26 years of age are exempt from paying taxes i
 print("let's see if ur eligible for that law!")
  
 age = input("Type down ur age: ")
-if len(age) > 3 and not age.isalpha():
+if not age.isdigit():
     raise ValueError("please type ur real age")
 
     
