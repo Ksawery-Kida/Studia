@@ -32,6 +32,4 @@ class BinaryCalculator:
 if __name__ == "__main__":
     calculator = BinaryCalculator(0)
     calculator.ask_number()
-    calculator.decimal_to_binary()
-    calculator.decimal_to_hexadecimal()
     calculator.print_results()
