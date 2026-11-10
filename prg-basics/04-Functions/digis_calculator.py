@@ -20,4 +20,4 @@ class Digits:
 if __name__ == "__main__":
     d = Digits(0, [])
     d.ask_input()
-    d.sum_digits()
+    d.sum_digits() 
