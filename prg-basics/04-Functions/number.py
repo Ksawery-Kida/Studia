@@ -15,5 +15,6 @@ def f(number):
     
     return outcome
 
+
 if __name__ == "__main__": 
     print(f(1027))
