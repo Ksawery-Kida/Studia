@@ -12,6 +12,7 @@ def palindrome(text):
         left += 1
         right -= 1
     return True 
+# test
 
 print(palindrome("radar")) #returns True
 
