@@ -1,23 +1,26 @@
-class Digits:
-
-    def __init__(self, number, count):
+def f(password): 
+    
+    seen = {}
+    # base case 
+    if len(password) < 6: 
+        return False 
+    
+    for x in password: 
+        if x in seen: 
+            seen[x] += 1
+        else: 
+            seen[x] = 1
+    
+    for c in seen.values(): 
+        if c != 1: 
+            return False
+    
+    return True 
         
-        self.number = number
-        self.count = count
 
-    
-    def ask_input(self):
-        self.number = int(input("Tell me the number: "))
-
-    
-    
-    def sum_digits(self):
-        for i in range(len(str(self.number))):
-            self.count.append(int(str(self.number)[i]))
-        print(f"The sum of the digits is: {sum(self.count)}")
-
-
-if __name__ == "__main__":
-    d = Digits(0, [])
-    d.ask_input()
-    d.sum_digits() 
+if __name__ == "__main__": 
+    print(f("ax15"))      # False
+    print(f("book123"))   # False
+    print(f("A2water3"))  # True
+    print(f("qwerty"))    # True
+    print(f(""))          # False
